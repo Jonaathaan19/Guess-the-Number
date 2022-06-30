@@ -15,5 +15,9 @@
 
 //Handling click events
 document.querySelector('.check').addEventListener('click', () => {
-    console.log('Clicked');
+    //Save the guess value
+    const guess = document.querySelector('.guess').value;
+
+    
+
 })
